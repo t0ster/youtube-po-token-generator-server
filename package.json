@@ -17,7 +17,8 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "echo 'build'"
   },
   "dependencies": {
     "jsdom": "^24.1.1",
