@@ -1,6 +1,6 @@
 const express = require("express");
-const { createTask } = require("./lib/task");
-const { fetchVisitorData } = require("./lib/workflow");
+const { createTask } = require("../lib/task");
+const { fetchVisitorData } = require("../lib/workflow");
 
 const generate = async () => {
   const visitorData = await fetchVisitorData();
